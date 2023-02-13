@@ -22,5 +22,17 @@ public class Cuenta {
 			return false;
 		}
 	}
+	
+	public boolean trasnferir(double valor, Cuenta cuenta) {
+		if (this.saldo >= valor) {
+			this.saldo -= valor;
+			cuenta.depositar(valor);
+			
+			return true;
+		}
+		return false;
+		
+		
+	}
 
 }
