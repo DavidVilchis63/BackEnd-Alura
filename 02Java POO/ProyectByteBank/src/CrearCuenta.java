@@ -2,6 +2,8 @@
 public class CrearCuenta {
 	
 	public static void main(String[] args) {
+		
+		//Variable           = Valor
 		Cuenta primeraCuenta = new Cuenta();
 		primeraCuenta.saldo = 1000;
 		
@@ -11,6 +13,7 @@ public class CrearCuenta {
 		segundaCuenta.saldo = 500;
 		
 		System.out.println(segundaCuenta.saldo);
+		System.out.println(primeraCuenta.titular);
 	}
 
 }
