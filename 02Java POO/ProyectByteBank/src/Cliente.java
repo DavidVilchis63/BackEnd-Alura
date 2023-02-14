@@ -1,8 +1,8 @@
 
 public class Cliente {
 	
-	String Documento;
-	String Nombre;
-	String Telefono;
+	String documento;
+	String nombre;
+	String telefono;
 
 }
