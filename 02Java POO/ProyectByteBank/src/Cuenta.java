@@ -3,7 +3,7 @@ public class Cuenta {
 	
 	private double saldo;
 	private int agencia;
-	private int numero;
+	int numero;
 	Cliente titular = new Cliente();
 	
 	//No retorna valor
@@ -52,8 +52,15 @@ public class Cuenta {
 	public int getAgencia() {
 		return agencia;
 	}
+	
+	public Cliente getTitular() {
+		return titular;
+	}
+	
 
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
 	}
+	
+	
 }

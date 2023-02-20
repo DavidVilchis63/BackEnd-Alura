@@ -7,6 +7,10 @@ public class PruebaEncapsulamiento {
 		
 		cliente4.setDocumento("adwa3d2");
 		cliente4.setNombre("Diego");
+		
+		cuentaUsuario4.setTitular(cliente4);
+		System.out.println(cliente4.getNombre());
+		System.out.println(cuentaUsuario4.getTitular().getNombre());
 	}
 
 }
