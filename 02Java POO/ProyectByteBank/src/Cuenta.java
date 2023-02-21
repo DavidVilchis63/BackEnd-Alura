@@ -6,7 +6,17 @@ public class Cuenta {
 	int numero;
 	private Cliente titular = new Cliente();
 	
-	public Cuenta() {
+	//public Cuenta() {
+	//	
+	//}
+	
+	public Cuenta(int agencia) {
+		if (agencia <= 0) {
+			System.out.println("No se permite 0");
+			this.agencia = 1;
+		} else {
+			this.agencia = agencia;
+		}
 		System.out.println("Aqui se crea nueva cuenta");
 	}
 	
