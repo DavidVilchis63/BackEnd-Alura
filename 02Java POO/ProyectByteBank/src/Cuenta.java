@@ -4,7 +4,11 @@ public class Cuenta {
 	private double saldo;
 	private int agencia;
 	int numero;
-	Cliente titular = new Cliente();
+	private Cliente titular = new Cliente();
+	
+	public Cuenta() {
+		System.out.println("Aqui se crea nueva cuenta");
+	}
 	
 	//No retorna valor
 	public void depositar (double valor) {
