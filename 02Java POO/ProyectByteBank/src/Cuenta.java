@@ -51,18 +51,7 @@ public class Cuenta {
 		return this.saldo;
 		
 	}
-		
-	public void setAgencia(int agencia) {
-		
-		if(agencia > 0) {
-			this.agencia = agencia;			
-		}
-		else {
-			System.out.println("No esta permitido valores negativos");
-		}
-		
-	}
-	
+			
 	public int getAgencia() {
 		return agencia;
 	}
