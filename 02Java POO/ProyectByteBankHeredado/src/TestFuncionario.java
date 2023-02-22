@@ -6,11 +6,11 @@ public class TestFuncionario {
 		diego.setDocumento("1123213");
 		diego.setNombre("Diego");
 		diego.setSalario(2000);
-		diego.setTipo(0);
+		//diego.setTipo(0);
 		
-		Funcionario gerente01 = new Funcionario();
+		Gerente gerente01 = new Gerente();
 		gerente01.setSalario(5000);
-		gerente01.setTipo(1);
+		//gerente01.setTipo(1);
 		
 		System.out.println(diego.getSalario());
 		System.out.println(diego.getBonificacion());

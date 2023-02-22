@@ -15,5 +15,9 @@ public class Gerente extends Funcionario{
 		return clave == "Alura";
 	}
 	
+	public double getBonificacion() {
+		return super.getSalario();
+	}
+	
 
 }
